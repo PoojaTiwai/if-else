@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// let a= parseInt(prompt("enter the value"))
+//       if(a>0){
+//       a="Number is positive"
+//       }
+//       else if (a==0){
+//       a= " Number is zero"
+//       }else{
+//       a= "number is negative"
+//       }
+//       console.log(a)
+
+
+// let age= parseInt(prompt("enter your age"))
+//       if(age>18){document.write("he/she is eligible")}
+//       else{
+//         document.write("not eligible")
+//       }
+
+
+// let age=13;
+//       if(age>18)  { let name=prompt("enter your name")
+//       document.write(`your name ${name}`)
+//       }
+//       else{
+//         document.write("not eligible")}
+
+
+    //   let name=prompt("enter  name")
+    //   if(name=="a") {
+    //   document.write ("1 name")
+    //   }
+    //   else if(name=="b") {
+    //     document.write ("2 name")
+    //   }
+    //   else{
+    //     document.write("data not found")
+    //   }
+
+
+
+    let num1 = parseInt(prompt("Enter first number "));
+      let num2 = parseInt(prompt("Enter second number"));
+      let symbol = prompt("Enter symbol (+,-,,/,%,*) which one calculation you want to perform ?")
+
+      if(symbol=="+"){
+          let num3 = num1 +num2;
+          document.write
+          (`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+
+      else if(symbol=="-"){
+          let num3 = num1 -num2;
+          document.write(`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+      else if(symbol=="*"){
+          let num3 = num1 *num2;
+          document.write(`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+      else if(symbol=="/"){
+          let num3 = num1 /num2;
+          document.write(`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+      else if(symbol=="%"){
+          let num3 = num1 %num2;
+          document.write(`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+      else if(symbol=="**"){
+          let num3 = num1 **num2;
+          document.write(`Result of ${num1} ${symbol} ${num2} is : ${num3}`);
+      }
+      else{
+          document.write("You entered wrong symbol ! Sorry ❌")
+      }
+
+
+
+    
+    </script>
+    
+</body>
+</html>
